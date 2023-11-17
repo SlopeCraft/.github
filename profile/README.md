@@ -13,7 +13,7 @@ SlopeCraft is a map pixel art generator for Minecraft. It allows you to generate
 ### 👨🏻‍💻 Members
 
 - **[@ToKiNoBug](https://github.com/TokiNoBug)** - *Main Developer, Windows & Linux Multiplatform Support*
-- **[@Cubik65536](https://github.com/Cubik65536)** - *macOS & Linux Multiplatform Support, multiplatform testing, documentation*
+- **[@Cubik65536](https://github.com/Cubik65536)** ([@iXOR Technology](https://github.com/iXORTech)) - *macOS & Linux Multiplatform Support, multiplatform testing, documentation*
 - **[@AbrasiveBoar902](https://github.com/AbrasiveBoar902)** - *Optimization (bridge-builder module)*
 
 ## 欢迎来到 SlopeCraft!
@@ -31,5 +31,5 @@ SlopeCraft 是一个 Minecraft 像素地图画生成器。它允许你生成像�
 ### 👨🏻‍💻 成员
 
 - **[@ToKiNoBug](https://github.com/TokiNoBug)** - *主要功能开发者，Windows 和 Linux 跨平台支持*
-- **[@Cubik65536](https://github.com/Cubik65536)** - *macOS 和 Linux 跨平台支持，跨平台测试，文档*
+- **[@Cubik65536](https://github.com/Cubik65536)** ([@iXOR Technology](https://github.com/iXORTech)) - *macOS 和 Linux 跨平台支持，跨平台测试，文档*
 - **[@AbrasiveBoar902](https://github.com/AbrasiveBoar902)** - *优化（搭桥模块）*
