@@ -2,7 +2,7 @@
 
 [![Documentation](https://img.shields.io/website?ddown_message=Offline&label=Documentation&style=for-the-badge&up_message=slopecraft.rtfd.io&url=https%3A%2F%2Fslopecraft.rtfd.io)](https://slopecraft.rtfd.io)
 
-![Minecraft Support Badge](https://img.shields.io/badge/Minecraft-1.12~1.20-orange?style=for-the-badge)
+![Minecraft Support Badge](https://img.shields.io/badge/Minecraft-1.12~1.21-orange?style=for-the-badge)
 
 Map Pixel Art Generator for Minecraft
 
