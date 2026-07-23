@@ -1,0 +1,103 @@
+name: Bug report | 错误报告
+description: Report a reproducible defect in this repository | 报告此仓库中可重现的问题
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem.
+
+        Use this form for defects in the current repository. For product usage questions, use [SlopeCraft Discussions](https://github.com/SlopeCraft/SlopeCraft/discussions). Do not report security vulnerabilities here; follow the [security policy](https://github.com/SlopeCraft/.github/security/policy).
+
+        感谢你报告问题。
+
+        本表单仅用于当前仓库中的缺陷。产品使用问题请前往 [SlopeCraft Discussions](https://github.com/SlopeCraft/SlopeCraft/discussions)。不要在此报告安全漏洞，请遵循[安全策略](https://github.com/SlopeCraft/.github/security/policy)。
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area | 受影响领域
+      options:
+        - Application or user interface | 应用或用户界面
+        - Library or API | 库或 API
+        - Build, packaging, or distribution | 构建、打包或分发
+        - Documentation | 文档
+        - Data or file format | 数据或文件格式
+        - Other | 其他
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version, tag, or commit | 版本、标签或提交
+      description: Identify the exact version when possible. | 尽可能提供准确版本。
+      placeholder: v1.2.3 or abcdef0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description | 问题描述
+      description: Describe what happened and why it appears to be a defect. | 说明发生了什么，以及为什么这可能是一个缺陷。
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps | 重现步骤
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior | 预期行为
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or diagnostics | 日志或诊断信息
+      description: Remove secrets and personal information before pasting. | 粘贴前请移除密钥和个人信息。
+      render: shell
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment | 环境
+      description: Include relevant operating system, architecture, compiler, runtime, Minecraft version, or other dependencies. | 提供相关操作系统、架构、编译器、运行时、Minecraft 版本或其他依赖。
+      placeholder: |
+        - Operating system | 操作系统:
+        - Architecture | 架构:
+        - Toolchain or runtime | 工具链或运行时:
+        - Other relevant versions | 其他相关版本:
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context | 补充信息
+      description: Add screenshots, sample files, or links when useful. | 可补充截图、示例文件或链接。
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation | 确认
+      options:
+        - label: I searched existing issues and did not find a duplicate. | 我已搜索已有 Issue，未发现重复问题。
+          required: true
+        - label: This report concerns the current repository rather than a general usage question. | 本报告针对当前仓库，而不是一般使用问题。
+          required: true
+        - label: I tested an applicable current version or commit. | 我已在适用的当前版本或提交上验证。
+          required: true
+        - label: I removed secrets and sensitive personal information. | 我已移除密钥和敏感个人信息。
+          required: true

@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Product support and questions | 产品支持与使用问题
+    url: https://github.com/SlopeCraft/SlopeCraft/discussions
+    about: Ask usage questions and get troubleshooting help. | 咨询使用方法并获取故障排查帮助。
+  - name: Documentation | 文档
+    url: https://slopecraft.readthedocs.io/
+    about: Read the current SlopeCraft documentation. | 阅读当前 SlopeCraft 文档。
+  - name: Security vulnerability | 安全漏洞
+    url: https://github.com/SlopeCraft/.github/security/policy
+    about: Do not disclose vulnerabilities in public issues. | 请勿在公开 Issue 中披露漏洞。

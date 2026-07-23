@@ -1,0 +1,65 @@
+name: Feature request | 功能请求
+description: Propose a repository-scoped improvement | 提议限定于当前仓库的改进
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the user problem first, then explain the proposed solution. Keep the request within the responsibility of the current repository.
+
+        请先描述用户问题，再说明建议方案。请求内容应属于当前仓库的职责范围。
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case | 问题或使用场景
+      description: What is difficult, missing, or unnecessarily costly today? | 当前有什么困难、缺失或不必要的成本？
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution | 建议方案
+      description: Describe the desired behavior, interface, or outcome. | 描述期望的行为、接口或结果。
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered | 已考虑的替代方案
+      description: Explain workarounds or other designs you considered. | 说明已尝试的变通方式或其他设计。
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Compatibility and maintenance impact | 兼容性与维护影响
+      description: Consider formats, APIs, platforms, dependencies, migration, and long-term maintenance. | 请考虑格式、API、平台、依赖、迁移和长期维护。
+
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: Contribution | 贡献意愿
+      options:
+        - I can help implement this. | 我可以协助实现。
+        - I can help test or document this. | 我可以协助测试或编写文档。
+        - I am only proposing the idea. | 我目前仅提出建议。
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context | 补充信息
+      description: Add examples, references, mockups, or related issues. | 可补充示例、参考资料、原型或关联 Issue。
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation | 确认
+      options:
+        - label: I searched existing issues and discussions for similar requests. | 我已搜索已有 Issue 和 Discussion 中的类似请求。
+          required: true
+        - label: This proposal fits the responsibility of the current repository. | 本建议符合当前仓库的职责范围。
+          required: true
