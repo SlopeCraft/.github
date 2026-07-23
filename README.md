@@ -1,2 +1,3 @@
 # .github
-Public Profile for [@SlopeCraft](https://github.com/SlopeCraft) Organization
+
+Public Profile and default community health documentation.
